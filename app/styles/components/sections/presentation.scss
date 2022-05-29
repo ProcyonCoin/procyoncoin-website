@@ -1,0 +1,144 @@
+#presentation {
+  position: relative;
+  font-family: 'arco';
+
+  .section.presentation-section {
+    padding-bottom: 50px;
+
+    .way-of-life {
+      height: 430px;
+
+
+      .img-container {
+        width: 370px;
+        height: 380px;
+      }
+      .left-img {
+        float: left;
+        background: url(/img/raccoon1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 20px;
+        margin-top:50px;
+        transform: scaleX(-1);
+
+        &.left-img-2 {
+          background: url(/img/raccoon2.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      .right-img {
+        float: right;
+        background: url(/img/raccoon3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 20px;
+        margin-top:50px;
+      }
+
+
+      
+
+      h3 {
+        font-size: 2rem;
+        border-bottom: 1px solid #CCC;
+        margin-bottom: 20px;
+        font-weight: 400;
+        padding-bottom: 4px;
+      }
+
+      p {
+        font-size: 1.05rem;
+        font-weight: 300;
+        line-height: 1.6;
+        text-align: justify;
+      }
+      .content-right {
+        float: right;
+        max-width: 550px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+
+      .content-left {
+        float:left;
+        max-width: 550px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+    }
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .video-wrapper {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media #{$mobile-tablet} {
+  #presentation {
+    .section.presentation-section {
+      padding-bottom: 40px;
+
+      .title {
+        padding: 60px 0;
+
+        h2 {
+          font-size: 2.2rem;
+        }
+      }
+
+      .way-of-life {
+        height: auto;
+
+        .img-container {
+          height: 200px!important;
+        }
+        .left-img {
+          float: none;
+          margin: auto;
+        }
+        .right-img {
+          float: none;
+          margin: auto;
+        }
+        .content-right, .content-left {
+          float: none;
+          display: block;
+          height: auto;
+          margin: 60px auto;
+          max-width: 530px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$small-mobile} {
+  #presentation {
+
+  }
+}

@@ -1,0 +1,13 @@
+.footer-index {
+    background-color: #2E353F;
+    height:100px;
+    width: 100%;
+    position: relative;
+    color:white;
+    .powered {
+        position:absolute;
+        bottom:20px;
+        left:50%;
+        transform: translate(-50%, 0);
+    }
+}

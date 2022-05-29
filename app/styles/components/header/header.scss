@@ -1,0 +1,117 @@
+.header-index {
+    position: fixed;
+    z-index:11;
+    width:100%;
+    left:0;
+    top:0;
+    height: 70px;
+    background-color: transparent;
+    -webkit-transition: 0.75s background-color ease-in-out;
+    transition: 0.75s background-color ease-in-out;
+  
+    .header-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      height: 100%;
+  
+      .raccoon-logo-icon-container {
+        
+        float: left;
+        margin:0 30px;
+        font-family: 'arco';
+        font-size:30px;
+        line-height: 60px;
+        img {
+          margin:20px;
+          width:120px;
+        }
+        
+      }
+    }
+
+    
+
+
+    .main-menu {
+        float: right;
+        height: 100%;
+      
+        ul {
+          list-style-type: none;
+          height: 100%;
+      
+          li {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            cursor: pointer;
+      
+            a {
+              font-family: 'arco';
+              padding: 0 15px;
+              display: inline-block;
+              height: 100%;
+              line-height: 68px;
+              text-decoration: none;
+              color: rgb(209, 209, 209);
+              font-size:22px;
+              font-weight: 300;
+      
+              &:hover {
+                color: rgb(155, 155, 155);
+              }
+            }
+          }
+        }
+      }
+
+
+      &.header-background {
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.75);
+        background-color: white;
+
+        .main-menu {
+          ul {
+            li {
+              a {
+                color:rgba(0, 0, 0, 0.75);
+
+                &:hover {
+                  color:black;
+                }
+              }
+            }
+          }
+        }
+    }
+      
+  }
+  
+@media #{$mobile} {
+    .header-index {
+
+      height:100px;
+      
+        .raccoon-logo-icon-container {
+         display: none;
+         
+        }
+
+        .main-menu {
+          float:none;
+          text-align: center;
+
+          ul li {
+            height:30px;
+            a {
+              font-size: 18px;
+              padding: 0 5px;
+            }
+          }
+          
+          .server-link {
+            display:none;
+          }
+        }
+    }
+}

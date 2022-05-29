@@ -1,0 +1,50 @@
+.whitepaper {
+
+    background: #2E353F;
+    color: rgb(209, 209, 209);
+
+    width:100%;
+    min-height:100vh;
+
+    padding:150px 0;
+
+    .title {
+        text-align: center;
+        font-size:2rem;
+        font-weight: 600;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size:1.7rem;
+    }
+
+    .notice {
+        margin-top:40px;
+        font-weight: 600;
+    }
+
+    .bitcoin-history {
+        margin-top:60px;
+    }
+
+    .quote {
+        width:80%;
+        margin: 50px auto;
+        text-align: center;
+        font-style: italic;
+        font-size: 0.95rem;
+
+        .author {
+            font-style: normal;
+            margin-top:10px;
+            font-weight: 400;
+        }
+        
+    }
+
+    .what {
+        margin-top:50px;
+    }
+
+}

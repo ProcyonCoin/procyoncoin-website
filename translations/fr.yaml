@@ -1,4 +1,52 @@
+menu:
+  present: Presentation
+  roadmap: Roadmap
+  team: Equipe
+  whitepaper: Whitepaper
+  twitter: Twitter
+
 index:
   title:
     line1: PROCYON COON COIN
-    line2: A meme coin which can be mined!
+    line2: 'Une "meme" cryptomonnaie qui peut etre minee !'
+  wallet: "Telecharger le Wallet"
+  miner: "Je veux miner"
+
+section:
+  present:
+    what: "Mais qu'est ce cette chose ?"
+    block1:
+      title : Une cryptomonnaie securisee
+      message1: "La securisation de ses avoirs financiers est primordial pour tous. Ca l'est d'autant plus pour les raton-laveurs qui souhaitent avant tout pouvoir proteger leurs tresors des voyous !"
+      message2: "De tout temps une orde de bandits masques s'en prennent aux biens des raton-laveurs. C'est pourquoi les raton-laveurs ont cree"
+    block2:
+      title: "Des mineurs 'so Raccoon'"
+      message1: "Inspiree de technologies evoluee comme le Bitcoin ou encore le Ravencoin, le Procyon 'coon' coin beneficie d'une securitee renforcee."
+      message2: "Quelle serait la securite de Procyon 'coon' coin sans ses raton-laveurs mineurs. Cette espece qui devient rare avec le temps travaille jour et nuit afin de garantir la securitee optimale de toutes les transactions des Raton-Laveurs"
+      message3: "Vous vous sentez l'ame d'un raton-laveur mineur ? C'est par ici que ca se passe !"
+    block3:
+      title: "Un reseau rapide"
+      message1: "Procyon 'coon' coin s'appuie sur un reseau decentralise, pouvant effectuer de nombreuses transactions a la seconde."
+      message2: "La confirmation des transactions est elle meme rapide egalement et se fait en moins de 10 minutes !"
+  
+  roadmap:
+    phase1:
+      title: "Phase 1 - Creer"
+      item1: "Lancement Procyon 'coon' coin."
+      item2: "Site Web"
+      item3: "Creation du portefeuille"
+      item4: "Recrutement d'une equipe"
+    phase2:
+      title: "Phase 2 - Lister"
+      item1: "Lister Procyon 'coon' coin sur les plateformes d'echange"
+      item2: "Contacter les influenceurs, creer des ambassadeurs"
+      item3: "Creation d'applications utilisant Procyon 'coon' coin."
+    phase3:
+      title: "Phase 3 - Promouvoir"
+      item1: "Lancement d'une place de marche pour les applications utilisant la cryptomonnaie"
+      item2: "Promouvoir Procyon 'coon' coin au travers de partenariats"
+
+  team:
+    title : "L'Equipe"
+    block1: "Le recrutement pour cette aventure est ouvert !"
+    block2: "Vous etes un raton laveur qui souhaiterait participer au projet. Envoyez votre candidature ici :"

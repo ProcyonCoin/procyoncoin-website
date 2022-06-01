@@ -6,7 +6,15 @@ export default class ApplicationRoute extends Route {
     @service intl;
 
     beforeModel() {
-        this.intl.setLocale(['en', 'fr']);
+
+        let browserLocale = navigator.language || navigator.userLanguage; 
+        if (browserLocale) {
+            let lang = browserLocale.split('-')[0];
+            if (this.intl.locales.indexOf(lang) > 0) {
+                return this.intl.setLocale([lang]);
+            }
+            return this.intl.setLocale(['en']);
+        }
     }
 
     afterModel() {

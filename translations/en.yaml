@@ -1,4 +1,51 @@
+menu:
+  present: Presentation
+  roadmap: Roadmap
+  team: Team
+  whitepaper: Whitepaper
+  twitter: Twitter
+
 index:
   title:
     line1: PROCYON COON COIN
-    line2: 'Une "meme" cryptomonnaie qui peut etre minee !'
+    line2: 'A "meme" coin which can be mined!'
+
+
+section:
+  present:
+    what: "But what is this thing?"
+    block1:
+      title : A secure cryptocurrency
+      message1: "Securing your financial assets is essential for everyone. It's all the more so for raccoons who want above all to be able to protect their treasures from thugs!"
+      message2: "From time immemorial, a group of masked bandits have attacked the property of raccoons. That's why raccoons have created"
+    block2:
+      title: "Miners 'so Raccoon'"
+      message1: "Inspired by advanced technologies such as Bitcoin or Ravencoin, the Procyon 'coon' coin benefits from enhanced security."
+      message2: "How safe would Procyon 'coon' coin be without its raccoon miners. This species, which becomes rare over time, works day and night to guarantee the optimal security of all Raccoon transactions."
+      message3: "Do you feel like a raccoon miner? It's here that it happens !"
+    block3:
+      title: "A fast network"
+      message1: "Procyon 'coon' coin relies on a decentralized network, being able to carry out many transactions per second."
+      message2: "The confirmation of transactions is itself also fast and is done in less than 10 minutes!"
+  
+  roadmap:
+    phase1:
+      title: "Phase 1 - Create"
+      item1: "Launch Procyon 'coon' coin."
+      item2: "Website"
+      item3: "Wallet creation"
+      item4: "Team recruitment"
+    phase2:
+      title: "Phase 2 - List"
+      item1: "List Procyon 'coon' coin on exchanges"
+      item2: "Contact influencers, create ambassadors"
+      item3: "Creation of applications using Procyon 'coon' coin."
+    phase3:
+      title: "Phase 3 - Promote"
+      item1: "Launch of a marketplace for applications using cryptocurrency"
+      item2: "Promote Procyon 'coon' coin through partnerships"
+
+  team:
+    title : "Team"
+    block1: "Recruitment for this adventure is open!"
+    block2: "You are a raccoon who would like to participate in the project. Submit your application here:"

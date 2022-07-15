@@ -4,6 +4,7 @@ menu:
   team: Equipe
   whitepaper: Whitepaper
   twitter: Twitter
+  exchange: Exchange
 
 index:
   title:
@@ -49,4 +50,9 @@ section:
   team:
     title : "L'Equipe"
     block1: "Contactez-nous !"
-    block2: "Vous souhaitez contacter un raton laveur de l'équipe:"
+    block2: "Vous souhaitez contacter un raton laveur de l'equipe:"
+
+  exchange:
+    title : "Exchange"
+    block1: "Et si vous echangiez vos PRCOs pour des cacahuetes ?!"
+    block2: "Vous pouvez des maintenant acheter ou vendre des PRCOs sur Vindax !"

@@ -4,6 +4,7 @@ menu:
   team: Team
   whitepaper: Whitepaper
   twitter: Twitter
+  exchange: Exchange
 
 index:
   title:
@@ -51,3 +52,8 @@ section:
     title : "Team"
     block1: "Contact us !"
     block2: "You want to contact a raccoon from the team:"
+
+  exchange:
+    title : "Exchange"
+    block1: "What if you trade your PRCOS for peanuts?!"
+    block2: "You can now buy or sell PRCOs on Vindax!"

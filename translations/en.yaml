@@ -4,7 +4,7 @@ menu:
   team: Team
   whitepaper: Whitepaper
   twitter: Twitter
-  exchange: Exchange
+  exchange: Exchanges
 
 index:
   title:
@@ -38,6 +38,7 @@ section:
       item2: "Website"
       item3: "Wallet creation"
       item4: "Team recruitment"
+      item5: "Implement POW+POS"
     phase2:
       title: "Phase 2 - List"
       item1: "List Procyon 'coon' coin on exchanges"
@@ -54,7 +55,10 @@ section:
     block2: "You want to contact a raccoon from the team:"
 
   exchange:
-    title : "Exchange"
+    title : "Exchanges"
     block1: "What if you trade your PRCOS for peanuts?!"
-    block2: "You can now buy or sell PRCOs on Vindax!"
-    block3: "If the link does not work, please use a VPN."
+    block2: "You can now buy or sell PRCOs on our different Exchanges!"
+    exbitron: 
+      pairs: "PRCO/USDT & PRCO/LTC"
+    vindax:
+      pairs: "PRCO/USDT"

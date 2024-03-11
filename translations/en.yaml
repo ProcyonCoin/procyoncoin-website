@@ -3,7 +3,7 @@ menu:
   roadmap: Roadmap
   team: Team
   whitepaper: Whitepaper
-  twitter: Twitter
+  twitter: X (Twitter)
   exchange: Exchanges
 
 index:
@@ -52,12 +52,14 @@ section:
   team:
     title : "Team"
     block1: "Contact us !"
-    block2: "You want to contact a raccoon from the team:"
+    block2: "We are on X (Twitter)!"
+    block_finder: Trash scavenger
 
   exchange:
     title : "Exchanges"
     block1: "What if you trade your PRCOS for peanuts?!"
     block2: "You can now buy or sell PRCOs on our different Exchanges!"
+    more: "More are coming!"
     exbitron: 
       pairs: "PRCO/USDT & PRCO/LTC"
     vindax:

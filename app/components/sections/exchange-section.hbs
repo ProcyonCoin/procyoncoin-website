@@ -14,30 +14,21 @@
 
   <div class="exchanges">
     <div class="exchange">
-      <div class="exbitron-logo">
-        <a href="https://www.exbitron.com/trading/prcousdt?refid=IDA5A7E708F9" target="_blank">
-        <img class="part1" src="/img/exbitron-part1.png">
-        <img class="part2" src="/img/exbitron-part2.svg">
+      <div class="xeggex-logo">
+        <a href="https://xeggex.com/market/PRCO_USDT" target="_blank">
+        <img src="/img/xeggex_blue_with_box.png">
         </a>
       </div>
       <div class="pair">
         {{t "section.exchange.exbitron.pairs"}}
       </div>
       <div class="price">
-        {{exchange/exchange-price exchange="exbitron" unit="USDT"}}
-        {{exchange/exchange-price exchange="exbitron" unit="LTC"}}
+        {{exchange/exchange-price exchange="xeggex" unit="USDT"}}
+        {{exchange/exchange-price exchange="xeggex" unit="DOGE"}}
       </div>
     </div>
     <div class="exchange">
-      <div class="vindax-logo">
-        <a href="https://vindax.com/exchange-base.html?symbol=PRCO_USDT?ref=24444f1e7e2f33bfcdd7c53096213cca" target="_blank"><img src="/img/Vindax.svg"></a>
-      </div>
-      <div class="pair">
-        {{t "section.exchange.vindax.pairs"}}
-      </div>
-      <div class="price">
-        {{exchange/exchange-price exchange="vindax" unit="USDT"}}
-      </div>
+      {{t "section.exchange.more"}}
     </div>
   </div>
   

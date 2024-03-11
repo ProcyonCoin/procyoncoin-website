@@ -33,6 +33,10 @@ export default Component.extend({
             case 'vindax':
                 this.refreshVindax();
                 break;
+            case 'xeggex':
+                this.refreshXeggex();
+                break;
+
         }
     },
 
@@ -50,6 +54,16 @@ export default Component.extend({
 
     refreshVindax() {
         let path = 'https://api.vindax.com/api/v1/ticker/24hr?symbol=PRCOUSDT';
+        this.ajax.requestPromise(path).then(result => {
+            set(this, 'amount', result.lastPrice);
+        })
+    },
+
+    refreshXeggex() {
+        let path = 'https://api.xeggex.com/api/v2/market/getbysymbol/PRCO_USDT';
+        if (this.unit == 'DOGE') {
+            path = 'https://api.xeggex.com/api/v2/market/getbysymbol/PRCO_DOGE';
+        }
         this.ajax.requestPromise(path).then(result => {
             set(this, 'amount', result.lastPrice);
         })
